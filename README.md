@@ -8,4 +8,4 @@ Este repositorio contiene 2 archivos de R.
 Resultados:
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/elietterestrepo/unloquer_er/blob/update-_readme/e-mail_summary.tiff)
