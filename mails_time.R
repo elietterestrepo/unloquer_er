@@ -23,7 +23,7 @@ raw.data <- read.csv(text = raw.url, sep=",", head = FALSE)
 #data conditioning
 ##name columns
 colnames(raw.data) <- c("subject", "from", "to", "date", "d1", "d2")
-##delete mesagges that do not belong to the list ("Limpia mensajes que no corresponden directamente a mensajes de la lista" by brolin)
+##delete mesagges that do not belong to the list (Original by brolin: "Limpia mensajes que no corresponden directamente a mensajes de la lista")
 raw.data <- raw.data[!str_detect(raw.data$subject,"Re: \\[unloquer/AQA\\].*"),]%>% as_tibble
 
 #-----Frequency of e-mails per year --------------
@@ -71,7 +71,8 @@ b <- b + theme(axis.text.x = element_text(size = 6, angle = 90), legend.position
 b <- b + coord_flip()
 
 #-----Plot previous graphs together
-source("~/Rwork/models_v2/fun-graph_combo.R")
+# source the funciton "fun-graph_combo"!!
+##export as tiff
 tiff('e-mail_summary.tiff', units="cm", width=16, height=20, res=300)
 graph_combo(a, b, ygrob ="", xgrob ="", nc = 1)
 dev.off()
