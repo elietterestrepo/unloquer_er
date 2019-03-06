@@ -7,4 +7,4 @@ Este repositorio contiene 2 archivos de R.
 
 Resultados:
 
-![Screenshot](e-mail_summary.tiff)
+![Correos por año ](https://github.com/elietterestrepo/unloquer_er/blob/update-_readme/e-mail_summary.tiff?raw=true)
