@@ -1,4 +1,4 @@
-# Function to plot validation results together
+# Function to plot several graphs together
 # By Eliette 2019.02.25
 
 # Input variables
