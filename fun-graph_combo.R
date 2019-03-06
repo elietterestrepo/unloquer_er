@@ -1,8 +1,8 @@
 # Function to plot validation results together
-# Eliette Restrepo 2019.02.25
+# By Eliette 2019.02.25
 
 # Input variables
-# a, b, c, d, ... the plots to combine in a grid
+# a, b, ... the plots to combine in a grid
 # ygrob : the global y-axis label 
 # xgrob : the global x-axis label
 # nc : number of columns in the grid
