@@ -12,7 +12,7 @@ Este repositorio contiene 2 archivos de R:
 Resultados:
 - Total de correos: 13 441 (unidades enviadas)
 - Año con mayor número de correos: 2014 (2 355 correos)
-- Temas con mayor número de correos en 2014: "Mañana sábado", "Propuesta 2014", "biohackerspace".
+- Asuntos con mayor número de correos en 2014: "Mañana sábado", "Propuesta 2014", "biohackerspace".
 
 Análisis: 
 - La actividad del grupo incrementó rápidamente entre el 2009 y el 2014. El pico de actividad ocurrió en el año 2014. La actividad del grupo ha disminuido drásticamente desde el 2015. Comparado con el primer año de actividad (2009), en el 2018, la actividad del grupo disminuyó en un 86%.  
