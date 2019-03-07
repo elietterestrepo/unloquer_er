@@ -64,7 +64,7 @@ b <- ggplot(y.2014.2) +
   aes(x=reorder(subject, times, sum),y=times, label = times, fill = times)+
   theme_bw()
 b <- b + labs(x = "", y = "Number of E-Mails")
-b <- b + ggtitle("Top e-mails 2014")
+b <- b + ggtitle("Top Subjects 2014")
 b <- b + scale_y_continuous(breaks = seq (0, 35, by =5), limits = c(0,35))
 b <- b + theme(axis.text.x = element_text(size = 6, angle = 90), legend.position = c(0.8,0.3), 
                legend.title = element_blank())
