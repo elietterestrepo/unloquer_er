@@ -26,4 +26,6 @@ Trabajo futuro:
 
 Fin :neckbeard:
 
+Nota: este es un trabajo en proceso. ¡Bienvenidas todas las contribuciones y correcciones! 
+
 ![Correos por año ](https://github.com/elietterestrepo/unloquer_er/blob/master/e-mail_summary2.png)
