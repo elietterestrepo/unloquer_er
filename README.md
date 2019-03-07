@@ -1,7 +1,7 @@
 # unloquer_er
 Frecuencia de correos unloquer durante el período 2009-2019
 
-Autora: Eliette, 2019.03.07, 11:27 (CET)
+Autora: Eliette Restrepo, 2019.03.07, 11:27 (CET)
 
 Esta gráfica se creó con el archivo de correos de Unloquer durante el período 2009-2019
 
