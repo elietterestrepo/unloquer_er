@@ -12,8 +12,8 @@ Resultados:
 
 Análisis: 
 - La actividad del grupo incrementó rápidamente entre el 2009 y el 2014. El pico de actividad ocurrió en el año 2014. La actividad del grupo ha disminuido drásticamente desde el 2015. Comparado con el primer año de actividad (2009), en el 2018, la actividad del grupo disminuyó en un 86%.  
-- Los temas con mayor número de correos en el 2014 fueron "Mañana sábado" y "Propuesta 2014". Estos resultados sugieren que la mayor actividad giró en torno a encuentros para concretizar "Propuesta 2014". 
-- Sin embargo, los temas con mayor número de correos solo suman aproximadamente 60 de un total de 2 355, lo cual indica que en el 2014 el grupo estuvo activo en una gran variedad de temas. 
+- Los asuntos con mayor número de correos en el 2014 fueron "Mañana sábado" y "Propuesta 2014". Estos resultados sugieren que la mayor actividad giró en torno a encuentros para concretizar "Propuesta 2014". 
+- Sin embargo, los asuntos con mayor número de correos solo suman aproximadamente 60 de un total de 2 355, lo cual indica que en el 2014 el grupo estuvo activo en una gran variedad de asuntos. 
 Fin :neckbeard:
 
 ![Correos por año ](https://github.com/elietterestrepo/unloquer_er/blob/master/e-mail_summary2.png)
