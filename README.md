@@ -16,4 +16,4 @@ Análisis:
 - Sin embargo, los asuntos con mayor número de correos solo suman aproximadamente 60 de un total de 2 355, lo cual indica que en el 2014 el grupo estuvo activo en una gran variedad de asuntos. 
 Fin :neckbeard:
 
-![Correos por año ](https://github.com/elietterestrepo/unloquer_er/blob/master/e-mail_summary2.png)
+![Correos por año ](unloquer_er/e-mail_summary2.png)
