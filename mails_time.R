@@ -17,7 +17,7 @@ library(lubridate)
 ##ggplot, dyplr...
 library(tidyverse)
 
-#source function 'fun-graph_combo!
+#source function 'fun-graph_combo'!
 source("~/Rwork/models_v2/fun-graph_combo.R") #-example
 
 #load raw data
