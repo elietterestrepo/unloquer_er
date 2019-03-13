@@ -6,7 +6,7 @@ rm(list=ls())
 dev.off()
 
 #set working directory
-setwd("~/Rwork/unloquer")
+setwd("~/Rwork/unloquer") #-example
 
 #download libraries
 ##to read a URL
@@ -16,6 +16,9 @@ library(httr)
 library(lubridate)
 ##ggplot, dyplr...
 library(tidyverse)
+
+#source function 'fun-graph_combo!
+source("~/Rwork/models_v2/fun-graph_combo.R") #-example
 
 #load raw data
 ##get URL containing raw data (from GitHub : brolin/ViZaJe)
@@ -30,12 +33,12 @@ colnames(raw.data) <- c("subject", "from", "to", "date", "d1", "d2")
 raw.data <- raw.data[!str_detect(raw.data$subject,"Re: \\[unloquer/AQA\\].*"),]%>% as_tibble
 
 #-----Frequency of e-mails per year --------------
-# extract the years from the date: 
-####"first, from the raw.data select the variable 'date',then, convert that date to dmy_hm, then extract only the year"
+## extract the years from the date: 
+###first, from the raw.data select the variable 'date',then, convert that date to dmy_hm, then extract only the year
 years <- raw.data %>% select(date) %>% 
   lapply(dmy_hm) %>% sapply(year) %>% as.data.frame()
 #obtain frequency of e-mails per year
-####"first take the list 'years', then convert it to data frame, then count the number of occurences per year"
+###first take the list 'years', then convert it to data frame, then count the number of occurences per year
 freq <- years %>% count(date) %>% rename(years=date, n=n)
 ##plot
 a <- ggplot(freq, aes(x = years, y = n, group=1)) +
@@ -70,8 +73,7 @@ b <- b + theme(axis.text.x = element_text(size = 6, angle = 90), legend.position
                legend.title = element_blank())
 b <- b + coord_flip()
 
-#-----Plot previous graphs together
-source("~/Rwork/models_v2/fun-graph_combo.R")
+#-----Plot previous graphs together--------------------
 png('e-mail_summary2.png', units="cm", width=16, height=20, res=300)
 graph_combo(a, b, ygrob ="", xgrob ="", nc = 1)
 dev.off()
